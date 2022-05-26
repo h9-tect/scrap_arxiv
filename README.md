@@ -7,12 +7,16 @@
 ### pip install .
 
 ## sample usage 
+
+```
 paper = Paper(from_="2022-05-020",
               to_="2022-05-26",
               set_="cs",
              )
-
+ arxiv = arXiv(paper)
+```
 ## Get today's papers
-
+```
 paper = Paper()
 arxiv = arXiv(paper)
+```
